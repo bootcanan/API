@@ -1,10 +1,11 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
+
 
 public class GetRequest01 {
 
@@ -17,7 +18,7 @@ public class GetRequest01 {
     public void test01(){
 
         //set the url
-        String url="https://restful-booker.herokuapp.com/booking/7";
+        String url="https://dummy.restapiexample.com/api/v1/employees";
 
         //expected result
 

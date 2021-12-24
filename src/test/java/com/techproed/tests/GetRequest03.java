@@ -1,4 +1,4 @@
-package com.techproed;
+package com.techproed.tests;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
